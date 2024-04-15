@@ -1,0 +1,10 @@
+Data/data_science/Posts.xml
+Data/data_science/Comments.xml
+Data/software_engineering/Posts.xml
+Data/software_engineering/Comments.xml
+Data/user_experience/Posts.xml
+Data/user_experience/Comments.xml
+Notebooks/data_science/.ipynb_checkpoints/
+Notebooks/software_engineering/.ipynb_checkpoints/
+Notebooks/user_experience/.ipynb_checkpoints/
+src/__pycache__/
