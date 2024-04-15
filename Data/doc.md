@@ -1,4 +1,4 @@
-This folder contains three subfolders 
+This folder should be populated with three subfolders 
 
 * data_science
 * software_engineering
