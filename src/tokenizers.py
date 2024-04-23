@@ -7,6 +7,7 @@ tokenize_body - Tokenizes the body of posts.
 '''
 import re
 from bs4 import BeautifulSoup as bs
+import se_post_processing as sepp
 
 def tokenize_title(title, lemmatizer, stops):
     '''
@@ -74,7 +75,7 @@ def tokenize_post(post, lemmatizer, stops):
         A list of tokens extracted from the post.
     '''
     # Get text from post..
-    soup = bs(post)
+    soup = bs(post, features='lxml')
     text = soup.get_text()
 
     # Remove displayed math equations from the text.
